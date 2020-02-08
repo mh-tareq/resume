@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700|Roboto+Slab:400,700&display=swap');
+
+body {
+    min-height: 100%;
+    font-family: 'Roboto Slab', serif;
+}
+.menus ul {
+    list-style: none;
+}
+
+.menus ul li {
+    font-size: 1rem;
+    margin: 6px;
+    border: 5px solid #f8f8f8;
+    border-radius: 10px;
+    padding: 5px;
+    color: #999;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+.menus ul li:hover {
+    border: 5px solid #333;
+    color: #4c4949;
+}
+
+.resume {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.right-side {display: flex;width: 100%;}
+
+.right {
+    margin: auto;
+    text-align: center;
+}
+
+.left-side {
+    border-right: 1px dashed #999;
+    height: 100vh;
+    display: flex;
+    font-family: 'Muli', sans-serif;
+}
+
+.left {
+    margin: auto;
+}
+
+.image {
+    background: url('image/tareq.png');
+    height: 155px;
+    width: 135px;
+    margin: auto;
+    margin-bottom: 49px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 60px;
+    color: #333;
+    filter: sepia(1);
+}
+
+section#education {
+    text-align: left;
+}
+
+p.cgpa {
+    display: inline;
+}
+
+.education_title {
+    margin: 50px 0;
+}
+
+#progressbar {
+  background-color: black;
+  border-radius: 13px;
+  padding: 3px;
+}
+
+#progressbar>div {
+  background-color: orange;
+  width: 40%;
+  height: 20px;
+  border-radius: 10px;
+}
+
+
+h4.section_title {border-bottom: 2px solid #bfb8b8;width: 100%;text-align: left;padding-bottom: 2px;margin-bottom: 28px; margin-top: 40px;}
+
+section#work_experience {
+    text-align: left;
+    margin: 50px 0;
+}
+
+.language {
+    margin: 20px 0;
+}
+
+
+.language .progressbar {
+    flex-grow: 1;
+}
+
+
+div.html>div {
+    width: 70% !important;
+}
+
+
+div.css>div {
+    width: 50% !important;
+}
+
+div.js>div {
+    width: 30% !important;
+}
+
+div.php>div {
+    width: 20% !important;
+}
+
+div.react>div {
+    width: 20% !important;
+}
+
+div.react_native>div {
+    width: 10% !important;
+}
+
+div.redux>div {
+    width: 20% !important;
+}
+
+div.wordpress>div {
+    width: 30% !important;
+}
+
+div.web_design>div {
+    width: 30% !important;
+}
+
+div.webDev>div {
+    width: 20% !important;
+}
+
+div.app>div {
+    width: 10% !important;
+}
+
+.skill {
+    margin: 20px 0;
+}
+
+section#contact {
+    text-align: left;
+}
+
+.contact_info {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.contact_info .title {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .menus {
+        margin-bottom: 50px;
+    }
+    .menus ul {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .left-side {
+        border-right: none;
+        height: auto;
+    }
+}
